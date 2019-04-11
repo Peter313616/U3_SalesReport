@@ -1,0 +1,15 @@
+﻿<Window x:Class="_313616_Sales.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_313616_Sales"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <RadioButton x:Name="rbIsSum" Content="Summary?"/>
+        <Button x:Name="btn2017" Content="2017 sales" Click="btn2017_Checked"/>
+        <Button x:Name="btn2018" Content="2018 sales" Click="btn2018_Checked"/>
+        <Label x:Name="lblOutput"/>
+    </StackPanel>
+</Window>
