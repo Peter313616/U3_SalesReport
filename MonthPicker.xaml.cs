@@ -1,4 +1,8 @@
-﻿using System;
+/* Peter McEwen
+* April 11, 2019
+*program shows specific months, and summary of business
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
